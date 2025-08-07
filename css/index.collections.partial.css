@@ -1,0 +1,73 @@
+.collections {
+  display: flex;
+  flex-direction: column;
+}
+
+.collections__text-block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  padding: 0 0 60px;
+}
+
+.collections__title {
+  color: #222323;
+  font-family: "Bebas Neue", cursive;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.collections-nav {
+  display: flex;
+  gap: 35px;
+  padding: 0 0 20px;
+  list-style-type: none;
+  margin: 0 auto;
+}
+.collections__line {
+  background-color: #222323;
+  opacity: 0.5;
+  width: 80%;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.collections__subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: #717474;
+  font-family: "PT Sans", sans-serif;
+}
+
+.men__container {
+  display: none;
+}
+
+.shoes__container {
+  display: none;
+}
+
+.collections__button {
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 400;
+  color: #717474;
+  font-family: "PT Sans", sans-serif;
+}
+
+.collections__button:hover {
+  color: #2a2a2a;
+  cursor: pointer;
+}
+
+.border-bottom {
+  transition: all ease-out 0.4s;
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Толщина подчеркивания */
+  text-underline-offset: 22px; /* Расстояние от текста */
+  text-decoration-color: rgb(255, 0, 0); /* Цвет подчеркивания */
+}

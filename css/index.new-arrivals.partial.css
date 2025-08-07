@@ -1,0 +1,145 @@
+.new-arrivals {
+  min-width: 1024px;
+  height: 830px;
+  padding: 120px 70px;
+  display: flex;
+  gap: 50px;
+}
+
+.new-arrivals__text-block {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.new-arrivals__title {
+  color: #222323;
+  font-family: "Bebas Neue", cursive;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.new-arrivals__line {
+  background-color: #222323;
+  width: 75px;
+  height: 2px;
+}
+
+.new-arrivals__description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #717474;
+  font-family: "PT Sans", sans-serif;
+}
+
+.new-arrivals__list {
+  display: flex;
+  width: 100%;
+  gap: 25px;
+  justify-content: flex-end;
+}
+
+.new-arrivals__item {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 400px;
+  gap: 15px;
+  text-align: left;
+}
+
+.new-arrivals__image {
+  width: 100%;
+}
+
+.new-arrivals__name {
+  font-weight: 400;
+  font-size: 17px;
+  color: #717474;
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+}
+
+.new-arrivals__link {
+  text-decoration: none;
+}
+
+.new-arrivals__link:hover {
+  text-decoration: underline;
+}
+
+.new-arrivals__price {
+  color: #f40106;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.new-arrivals__button {
+  transition: all ease-out 0.4s;
+  width: 125px;
+  min-height: 50px;
+  background-color: #000000;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.new-arrivals__button {
+  transition: all ease-out 0.4s;
+  width: 125px;
+  min-height: 50px;
+  background-color: #000000;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.new-arrivals__button:hover {
+  background-color: #f40106;
+}
+
+.new-arrivals__button-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+
+.text-block__button {
+  transition: all ease-out 0.4s;
+  width: 140px;
+  min-height: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.text-block__button-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+
+.text-block__button:hover {
+  background-color: black;
+  .text-block__button-link {
+    color: white;
+  }
+}
+
+.new-arrivals__image:hover {
+  opacity: 0.8;
+}

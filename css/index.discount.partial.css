@@ -1,0 +1,65 @@
+.discount {
+  background-image: url(/img/discount-img/discount-background.png);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  min-width: 1024px;
+  min-height: 800px;
+  font-family: "Bebas Neue", cursive;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+.discount__text {
+  color: #ffffff75;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.discount__title {
+  font-size: 124px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 120px;
+}
+
+.discount__btn {
+  transition: all ease-out 0.4s;
+  width: 165px;
+  height: 55px;
+  background-color: #ffffff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.discount__btn:hover {
+  background-color: #000000;
+  a {
+    color: white;
+  }
+  img {
+    content: url(/img/hero-banner-img/arrow-icon.png);
+  }
+}
+
+.discount__btn-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16.5px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+
+.discount__btn-link img {
+  width: 20px;
+}

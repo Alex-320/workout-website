@@ -1,0 +1,130 @@
+.footer {
+  background-color: #222323;
+  color: #fff;
+  padding: 50px 20px 0;
+}
+
+.footer__logo {
+  width: 175px;
+}
+
+.footer__line {
+  background-color: red;
+  border: none;
+  height: 2px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.footer__container {
+  display: flex;
+  min-width: 1200px;
+  margin-left: 170px;
+  gap: 150px;
+  padding-bottom: 30px;
+}
+
+.footer__column {
+  text-align: left;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer__text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "PT Sans", sans-serif;
+  color: #ffffffa6;
+}
+
+.footer__title {
+  font-size: 24px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__item {
+  margin-bottom: 5px;
+}
+
+.footer__link {
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+}
+
+.footer__social {
+  display: flex;
+}
+
+.footer__social-link {
+  margin-right: 10px;
+}
+
+.footer__bottom {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.footer__copyright {
+  font-size: 12px;
+}
+
+.footer__social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer__facebook-icon {
+  transition: all 0.3s ease-out;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(255, 0, 0);
+  padding: 2px;
+}
+
+.footer__instagram-icon {
+  transition: all 0.3s ease-out;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(255, 0, 0);
+  padding: 2px;
+}
+
+.footer__youtube-icon {
+  transition: all 0.3s ease-out;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(249, 0, 0);
+  padding: 2px;
+}
+
+.footer__facebook-icon:hover {
+  background-color: rgb(255, 0, 0);
+  content: url("/img/header-nav-img/facebook-icon-black.svg");
+}
+
+.footer__instagram-icon:hover {
+  background-color: rgb(255, 0, 0);
+  content: url("/img/header-nav-img/instagram-icon-black.svg");
+}
+
+.footer__youtube-icon:hover {
+  background-color: rgb(255, 0, 0);
+  content: url("/img/header-nav-img/youtube-icon-black.svg");
+}

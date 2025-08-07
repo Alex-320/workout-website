@@ -1,0 +1,61 @@
+.discount-offers {
+  min-width: 1024px;
+  padding: 50px 0 100px;
+}
+
+.discount-offers__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.discount-offers__item {
+  width: 480px;
+  height: 315px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.--10 {
+  background-image: url(/img/discount-offers-img/dis-offer-1png.png);
+}
+
+.--11 {
+  background-image: url(/img/discount-offers-img/dis-offer-2.jpg);
+}
+
+.--12 {
+  background-image: url(/img/discount-offers-img/dis-offer-3.jpg);
+}
+
+.discount-offers__overlay {
+  background-color: #222323e3;
+  height: 120px;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 10px 20px;
+}
+
+.discount-offers__title {
+  color: white;
+  font-size: 36px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+}
+
+.discount-offers__link {
+  color: white;
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.discount-offers__link:hover {
+  text-decoration: underline;
+}

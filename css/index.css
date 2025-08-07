@@ -1,0 +1,23 @@
+@import "global.css";
+@import "global.header-nav.partial.css";
+@import "index.hero-banner.partial.css";
+@import "index.categories.partial.css";
+@import "index.features.partial.css";
+@import "index.about-us.partial.css";
+@import "index.trending.partial.css";
+@import "index.sale-products.partial.css";
+@import "index.discount.partial.css";
+@import "index.discount-offers.partial.css";
+@import "index.collections.partial.css";
+@import "index.collections-women.partial.css";
+@import "index.collections-men.partial.css";
+@import "index.collections-shoes.partial.css";
+@import "index.limited-offer.partial.css";
+@import "index.new-arrivals.partial.css";
+@import "index.orig-brands.partial.css";
+@import "index.carousel.partial.css";
+@import "index.blog.partial.css";
+@import "index.newsletter.partial.css";
+@import "index.contacts.partial.css";
+@import "index.footer.partial.css";
+
