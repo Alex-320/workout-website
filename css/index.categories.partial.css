@@ -12,7 +12,7 @@
 }
 
 .categories__new-arrivals {
-  background-image: url(/img/categories-img/new-arrivals-img.svg);
+  background-image: url(../img/categories-img/new-arrivals-img.svg);
   background-size: cover;
   width: 540px;
   height: 375px;
@@ -24,7 +24,7 @@
 }
 
 .categories__trainers {
-  background-image: url(/img/categories-img/trainers-img.png);
+  background-image: url(../img/categories-img/trainers-img.png);
   background-size: cover;
   width: 250px;
   height: 375px;
@@ -36,7 +36,7 @@
 }
 
 .categories__hot-sale {
-  background-image: url(/img/categories-img/hot-sale.png);
+  background-image: url(../img/categories-img/hot-sale.png);
   background-size: cover;
   width: 250px;
   height: 375px;

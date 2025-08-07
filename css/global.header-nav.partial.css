@@ -84,15 +84,15 @@
 
 .header-nav__facebook-icon:hover {
   background-color: white;
-  content: url("/img/header-nav-img/facebook-icon-black.svg");
+  content: url("../img/header-nav-img/facebook-icon-black.svg");
 }
 
 .header-nav__instagram-icon:hover {
   background-color: white;
-  content: url("/img/header-nav-img/instagram-icon-black.svg");
+  content: url("../img/header-nav-img/instagram-icon-black.svg");
 }
 
 .header-nav__youtube-icon:hover {
   background-color: white;
-  content: url("/img/header-nav-img/youtube-icon-black.svg");
+  content: url("../img/header-nav-img/youtube-icon-black.svg");
 }

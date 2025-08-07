@@ -1,5 +1,5 @@
 .orig-brands {
-  background-image: url(/img/orig-brands-img/orig-brands-background.jpg);
+  background-image: url(../img/orig-brands-img/orig-brands-background.jpg);
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -74,7 +74,7 @@
   background-color: #ffffff;
 
   .orig-brands__btn-link img {
-    content: url(/img/categories-img/black-arrow.png);
+    content: url(../img/categories-img/black-arrow.png);
   }
 }
 
@@ -83,7 +83,7 @@
 }
 
 .orig-brands__btn:hover img {
-  content: url(/img/hero-banner-img/arrow-icon.png);
+  content: url(../img/hero-banner-img/arrow-icon.png);
 }
 
 .orig-brands__btn-link {

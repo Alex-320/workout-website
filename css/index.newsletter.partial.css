@@ -3,7 +3,7 @@
   height: 215px;
   display: flex;
   justify-content: center;
-  background-image: url(/img/newsletter-img/newsletter-background.png);
+  background-image: url(../img/newsletter-img/newsletter-background.png);
   background-position-x: -190px;
   background-size: cover;
 }

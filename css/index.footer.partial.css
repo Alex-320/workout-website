@@ -116,15 +116,15 @@
 
 .footer__facebook-icon:hover {
   background-color: rgb(255, 0, 0);
-  content: url("/img/header-nav-img/facebook-icon-black.svg");
+  content: url("../img/header-nav-img/facebook-icon-black.svg");
 }
 
 .footer__instagram-icon:hover {
   background-color: rgb(255, 0, 0);
-  content: url("/img/header-nav-img/instagram-icon-black.svg");
+  content: url("../img/header-nav-img/instagram-icon-black.svg");
 }
 
 .footer__youtube-icon:hover {
   background-color: rgb(255, 0, 0);
-  content: url("/img/header-nav-img/youtube-icon-black.svg");
+  content: url("../img/header-nav-img/youtube-icon-black.svg");
 }

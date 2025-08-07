@@ -7,7 +7,7 @@
 
 .about-us__img {
   width: 50%;
-  background-image: url(/img/about-us-img/about-us-background.jpg);
+  background-image: url(../img/about-us-img/about-us-background.jpg);
   background-size: cover;
 }
 
@@ -81,15 +81,15 @@
 }
 .about-us__facebook-icon:hover {
   background-color: rgb(255, 0, 0);
-  content: url("/img/header-nav-img/facebook-icon-black.svg");
+  content: url("../img/header-nav-img/facebook-icon-black.svg");
 }
 
 .about-us__instagram-icon:hover {
   background-color: rgb(255, 0, 0);
-  content: url("/img/header-nav-img/instagram-icon-black.svg");
+  content: url("../img/header-nav-img/instagram-icon-black.svg");
 }
 
 .about-us__youtube-icon:hover {
   background-color: rgb(255, 0, 0);
-  content: url("/img/header-nav-img/youtube-icon-black.svg");
+  content: url("../img/header-nav-img/youtube-icon-black.svg");
 }

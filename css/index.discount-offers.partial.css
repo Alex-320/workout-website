@@ -18,15 +18,15 @@
 }
 
 .--10 {
-  background-image: url(/img/discount-offers-img/dis-offer-1png.png);
+  background-image: url(../img/discount-offers-img/dis-offer-1png.png);
 }
 
 .--11 {
-  background-image: url(/img/discount-offers-img/dis-offer-2.jpg);
+  background-image: url(../img/discount-offers-img/dis-offer-2.jpg);
 }
 
 .--12 {
-  background-image: url(/img/discount-offers-img/dis-offer-3.jpg);
+  background-image: url(../img/discount-offers-img/dis-offer-3.jpg);
 }
 
 .discount-offers__overlay {
