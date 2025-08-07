@@ -1,0 +1,46 @@
+<section id="collections" class="collections">
+  <div class="collections__text-block">
+    <h2 class="collections__title">Main COLLECTION<span>.</span></h2>
+    <hr class="sale-products__line" />
+    <p class="collections__subtitle">
+      Shop our main fitness collection for men and women represented by the
+      famous brands.
+    </p>
+  </div>
+
+  <ul class="collections-nav">
+    <button class="collections__button">
+      <li class="collections-nav__item">Women</li>
+    </button>
+
+    <button class="collections__button">
+      <li class="collections-nav__item">Men</li>
+    </button>
+
+    <button class="collections__button">
+      <li class="collections-nav__item">Shoes</li>
+    </button>
+  </ul>
+
+  <hr class="collections__line" />
+
+  <div
+    class="women__container"
+    hx-get="index.collections-women.partial.html"
+    hx-trigger="load"
+    hx-swap="innerHTML"
+  ></div>
+  <div
+    class="men__container"
+    hx-get="index.collections-men.partial.html"
+    hx-trigger="load"
+    hx-swap="innerHTML"
+  ></div>
+  <div
+    class="shoes__container"
+    hx-get="index.collections-shoes.partial.html"
+    hx-trigger="load"
+    hx-swap="innerHTML"
+  ></div>
+  <script src="js/index.collections.js" defer></script>
+</section>
