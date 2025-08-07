@@ -12,7 +12,7 @@
 }
 
 .categories__new-arrivals {
-  background-image: url(./img/categories-img/new-arrivals-img.svg);
+  background-image: url(../img/categories-img/new-arrivals-img.svg);
   background-size: cover;
   width: 540px;
   height: 375px;
@@ -79,4 +79,5 @@
 .categories__link img {
   width: 12px;
 }
+
 
